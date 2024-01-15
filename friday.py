@@ -91,7 +91,7 @@ def wishme():
 
 def emailtoharsh():
     email_sender='hv5699012'
-    email_password= 'qxxgfqeyghgisqdo'
+    email_password= '  '
     email_receiver='harshvermajpr1@gmail.com'
     speak("Tell me the subject")
     subject=takecommand()
@@ -117,7 +117,7 @@ def emailtoharsh():
 
 def emailtokhushi():
     email_sender='hv5699012'
-    email_password= 'qxxgfqeyghgisqdo'
+    email_password= ' '
     email_receiver='ratrakr@gmail.com'
     speak("Tell me the subject")
     subject=takecommand()
@@ -417,7 +417,7 @@ def emergency():
             content= 'Help I Need Help as soon as possible.'
             hour = int(datetime.datetime.now().hour)
             minute = int(datetime.datetime.now().minute)
-            phone='+91 63679 82717'
+            phone='+91 00000 00000'
             kit.sendwhatmsg_instantly(phone, content , hour , minute)
             print("Message Sent sir.")
             speak("message Sent sir.")   
@@ -430,7 +430,7 @@ def emergency():
         
         #email
         email_sender='hv5699012'
-        email_password= 'qxxgfqeyghgisqdo'
+        email_password= '  '
         email_receiver='harshvermajpr1@gmail.com'
         subject=("Urgent Help Needed.")
         print("Subject of the email:- ",subject)
@@ -648,25 +648,25 @@ if __name__ == "__main__":
                     content=content.replace(content , "")
 
                 if query=="pankaj":
-                    phone='+91 70236 22705'
+                    phone='+91 00000 00000'
 
                 elif query=="khushi":
-                    phone='+91 88825 30012'
+                    phone='+91 00000 00000'
 
                 elif query=="chandu":
-                    phone='+91 80056 46802'
+                    phone='+91 00000 00000'
 
                 elif query=="priya":
-                    phone='+91 73398 98849'
+                    phone='+91 00000 00000'
 
                 elif query=="itisha":
-                    phone='+91 74269 32093'
+                    phone='+91 00000 00000'
 
                 elif query=="roshan":
-                    phone='+91 97841 17842'
+                    phone='+91 00000 00000'
 
                 elif query=="harjeet sir":
-                    phone='+91 81074 54956'
+                    phone='+91 00000 00000'
 
 
              
